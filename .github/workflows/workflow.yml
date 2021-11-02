@@ -11,5 +11,5 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        ref: 'master'
+        ref: master
     - run: cat README.md
