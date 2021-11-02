@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     name: onlyprint
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        ref: main
+#     - name: Checkout
+#       uses: actions/checkout@v2
+#       with:
+#         ref: main
     - run: cat README.md
     - run: echo 'hello world'
       if: ${{0}}
