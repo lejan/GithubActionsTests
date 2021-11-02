@@ -2,7 +2,7 @@ name: print
 on:
   push:
     branches:
-      - lejan/second
+      - master
 jobs:
   first:
     runs-on: ubuntu-latest
