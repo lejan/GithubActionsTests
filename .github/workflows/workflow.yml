@@ -8,4 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     name: onlyprint
     steps:
+    - name: Checkout
+      uses: actions/checkout@v2
     - run: cat README.md
