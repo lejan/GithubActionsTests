@@ -8,4 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     name: onlyprint
     steps:
-    - run: echo "second" >> README.md
+    - name: Checkout
+      uses: actions/checkout@v2
+    - run: cat README.md
