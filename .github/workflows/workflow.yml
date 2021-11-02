@@ -1,0 +1,11 @@
+name: print
+on:
+  push:
+    branches:
+      - lejan/second
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    name: onlyprint
+    steps:
+    - run: echo Hello master!
